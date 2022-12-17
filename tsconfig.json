@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "outDir": "build",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "strict": false,
     "lib": ["esnext"],
-    "esModuleInterop": true
-  }
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "include": ["src/**/*.ts"]
 }
